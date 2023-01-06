@@ -1,0 +1,33 @@
+.container h1 {
+  color: #326dee;
+}
+
+.container a {
+  color: #1ac888;
+}
+
+.container button {
+  color: white;
+  border: 0;
+  background-color: #326dee;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+}
+
+.container .error {
+  color: #d32752;
+  border: 1px solid #d32752;
+  padding: 0.75rem;
+}
+
+.container .notification {
+  border: 1px solid #1ac888;
+  color: #1ac888;
+  padding: 0.75rem;
+}
+
+.container .right {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}

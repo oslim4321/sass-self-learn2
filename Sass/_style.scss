@@ -1,0 +1,34 @@
+@import '../Variables/variable';
+
+.container{
+    h1{
+        color: $primary;
+    }
+    a{
+        color: $secondary;
+    }
+    button{
+        color: white;
+        border: 0;
+        background-color: $primary;
+        padding: $_padding;
+        border-radius: $base_border_radius;
+    }
+    .error{
+        color: $error;
+        border: 1px solid $error;
+        padding: $_padding;
+    }
+    .notification{
+        border: 1px solid $secondary;
+        color: $secondary;
+        padding: $_padding;
+    }
+    .right{
+        // position: absolute;
+        // bottom: 0;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+}

@@ -1,0 +1,13 @@
+@import '../Variables/variable';
+
+
+@each $key, $val in $colors {
+    .text-#{$key}{
+        color: $val;
+    }
+    .bg-#{$key}{
+        background-color: $val;
+    }
+    // padding: $_padding;
+    // border: $base_border_thickness;
+}
