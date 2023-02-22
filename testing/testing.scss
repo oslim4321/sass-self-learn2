@@ -1,0 +1,28 @@
+// @use 'sass:math';
+
+$border_radius: 30px;
+
+.test {
+    background-color: red;
+    border-radius: $border_radius / 2;
+    // border-radius: math.div($border_radius, 3);
+}
+
+$colors:( // "primary": $primary,
+    // "secondary": $secondary,
+    // "error": $error,
+    // "info": $info,
+    "blue": #1919e6,
+    "red": #e61919,
+    "yellow":#e6e919,
+    "green": #19e635,
+    "orange": #ffa600,
+    "purple":#9900ff,
+    "gray": #808080,
+    "black" : black,
+    "white": white);
+
+
+@debug "hello oslim";
+@debug "huuuu";
+@debug map-get($colors, "white")
